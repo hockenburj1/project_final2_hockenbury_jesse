@@ -1,3 +1,8 @@
+@font-face {
+    font-family: suburbana;
+    src: url("../fonts/Suburbana.ttf");
+}
+
 html {
     background-color: black;
     background-image: url("../img/background.jpg");
@@ -21,12 +26,16 @@ h2 {
     color: #a32c2c;
     margin-top: 5px;
     margin-bottom: 5px;
+    font-family: suburbana;
+    letter-spacing: 5px;
 }
 
 h3 {
     color: #06561d;
     margin-top: 15px;
     margin-bottom: 5px;
+    font-family: suburbana;
+    letter-spacing: 5px;
 }
 
 p {
@@ -38,11 +47,17 @@ p {
     text-decoration: none;
     padding: 4px 10px;
     display: inline-block;
-    background: linear-gradient(to bottom, #06561d 0%, #2ca34e 100%);
+    background: linear-gradient(to bottom, #06561d 0%, #043712 100%);
+    -webkit-box-shadow: 1px 1px 3px 1px rgba(0, 1, 1, 1);
+    box-shadow: 1px 1px 3px 1px rgba(0, 1, 1, 1);
 }
 
 .button:hover {
-    background: #06561d;
+    background: #333333;
+}
+
+.buttons .button {
+    margin-right: 5px;
 }
 
 .color-box {
