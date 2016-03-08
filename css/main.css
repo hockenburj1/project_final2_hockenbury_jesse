@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    padding: 5px;
+    padding: 15px;
     margin: 0;
     font: arial;
 }
@@ -31,6 +31,18 @@ h3 {
 
 p {
     margin: 0;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    padding: 4px 10px;
+    display: inline-block;
+    background: linear-gradient(to bottom, #06561d 0%, #2ca34e 100%);
+}
+
+.button:hover {
+    background: #06561d;
 }
 
 .color-box {
