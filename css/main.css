@@ -12,12 +12,21 @@ body {
     padding: 15px;
     margin: 0;
     font: arial;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+#wrapper {
+    max-width: 1200px;
+    margin: 10px auto;
 }
 
 .content {
-    max-width: 1200px;
     background-color: rgba(255, 255, 255, 0.94);
-    margin: 10px auto;
+    margin-top: 10px;
     padding: 10px;
     overflow: hidden;
 }
@@ -42,6 +51,15 @@ p {
     margin: 0;
 }
 
+/* Banner */
+
+#banner {
+    display: block;
+    width: 100%;
+}
+
+/* Buttons */
+
 .button {
     color: white;
     text-decoration: none;
@@ -59,6 +77,9 @@ p {
 .buttons .button {
     margin-right: 5px;
 }
+
+
+/* Color Boxes */
 
 .color-box {
     margin-top: 10px;
@@ -122,8 +143,25 @@ p {
 }
 
 @media (min-width: 768px) {
+    #colors {
+        width: 70%;
+        float: left;
+    }
+
+    #typography {
+        width: calc(30% - 10px);
+        margin-left: 10px;
+        float: left;
+    }
+
+    #button-example {
+        width: calc(30% - 10px);
+        margin-left: 10px;
+        float: left;
+    }
+
     .color-box {
-        width: 33%;
+        width: 50%;
         float: left;
     }
 }
