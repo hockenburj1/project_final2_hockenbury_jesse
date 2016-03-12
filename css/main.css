@@ -103,7 +103,7 @@ p {
     padding: 4px 10px;
     display: inline-block;
     background: linear-gradient(to bottom, #06561d 0%, #043712 100%);
-    -webkit-box-shadow: 1px 1px 3px 1px rgba(0, 1, 1, 1);
+    /*-webkit-box-shadow: 1px 1px 3px 1px rgba(0, 1, 1, 1);*/
     box-shadow: 1px 1px 3px 1px rgba(0, 1, 1, 1);
 }
 
@@ -196,7 +196,7 @@ main p {
     }
 
     aside {
-        width: calc(30% - 10px);
+        width: calc( 30% - 10px );
         margin-left: 10px;
         float: left;
     }
