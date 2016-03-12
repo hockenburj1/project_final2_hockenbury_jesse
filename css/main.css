@@ -24,6 +24,14 @@ body {
     box-sizing: inherit;
 }
 
+a {
+    color: #06561d;
+}
+
+a:hover {
+    color: #509dd2;
+}
+
 #wrapper {
     max-width: 1200px;
     margin: 10px auto;
