@@ -3,6 +3,11 @@
     src: url("../fonts/Suburbana.ttf");
 }
 
+@font-face {
+    font-family: anson;
+    src: url("../fonts/anson-regular-webfont.ttf");
+}
+
 html {
     background-color: black;
     background-image: url("../img/background.jpg");
@@ -33,7 +38,7 @@ section {
 }
 
 h2 {
-    color: #a32c2c;
+    color: #509dd2;
     margin-top: 5px;
     margin-bottom: 5px;
     font-family: suburbana;
@@ -44,8 +49,9 @@ h3 {
     color: #06561d;
     margin-top: 15px;
     margin-bottom: 5px;
-    font-family: suburbana;
-    letter-spacing: 5px;
+    font-family: anson;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
 
 p {
@@ -54,9 +60,14 @@ p {
 
 /* Banner */
 
-#banner {
+.banner {
     display: block;
     width: 100%;
+}
+
+#main-banner,
+#banner-2 {
+    padding: 0;
 }
 
 /* Buttons */
@@ -121,7 +132,7 @@ p {
 #color3 {
     width: 80px;
     height: 80px;
-    background-color: #ef5959;
+    background-color: #509dd2;
 }
 
 #color4 {
@@ -150,7 +161,7 @@ p {
 }
 
 @media (min-width: 768px) {
-    #colors {
+    main {
         width: 70%;
         float: left;
     }
@@ -165,6 +176,13 @@ p {
 
     .color-box {
         width: 50%;
+        float: left;
+    }
+}
+
+@media (min-width: 950px) {
+    .color-box {
+        width: 33%;
         float: left;
     }
 }
